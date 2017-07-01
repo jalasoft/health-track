@@ -17,5 +17,6 @@
 
     <properties>
         <spring.version>1.5.4.RELEASE</spring.version>
+        <logback.version>1.2.3</logback.version>
     </properties>
 </project>

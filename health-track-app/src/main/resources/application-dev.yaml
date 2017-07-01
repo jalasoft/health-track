@@ -1,2 +1,1 @@
-spring.resources.static-locations: Users/lastovicka/workspaces/health-track/health-track-web/src/main/javascript/
-server.port: 8090
+spring.resources.static-locations: file:/Users/lastovicka/workspaces/health-track/health-track-web/src/main/javascript/
