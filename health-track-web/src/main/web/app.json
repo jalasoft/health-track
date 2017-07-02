@@ -406,7 +406,8 @@
      */
     
     "output": {
-        "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+        "base": "${workspace.dir}/../../../target/classes/static",
+        //"base": "${workspace.build.dir}/${build.environment}/${app.name}",
         "appCache": {
             "enable": false
         }
