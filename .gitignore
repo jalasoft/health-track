@@ -3,7 +3,7 @@
 health-track.iml
 health-track-web/src/main/web/bootstrap.*
 health-track-web/src/main/web/build
-health-track-web/src/main/web/sass/example
+health-track-web/target
 
 
 

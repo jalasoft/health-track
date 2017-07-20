@@ -299,6 +299,7 @@
      */
     "production": {
         "output": {
+            "base": "/Users/lastovicka/workspaces/health-track/health-track-web/target/classes/static",
             "appCache": {
                 "enable": true,
                 "path": "cache.appcache"
@@ -406,8 +407,7 @@
      */
     
     "output": {
-        "base": "${workspace.dir}/../../../target/classes/static",
-        //"base": "${workspace.build.dir}/${build.environment}/${app.name}",
+        "base": "${workspace.build.dir}/${build.environment}/${app.name}",
         "appCache": {
             "enable": false
         }
@@ -523,5 +523,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "39bf12b3-cec1-481f-9fd3-2200fc6e4e87"
+    "id": "0415b2d2-aa01-4fd9-b302-588a14b45719"
 }
