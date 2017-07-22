@@ -4,7 +4,9 @@ Ext.define("HealthTrack.view.login.LoginForm", {
     bodyPadding: "5, 20, 0, 20",
     border: true,
     title: "Log In",
-    ui: "sracka",
+    requires: [
+      "HealthTrack.view.component.LinkButton"
+    ],
     items: [
         {
             xtype: "textfield",

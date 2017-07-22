@@ -3,7 +3,10 @@ Ext.define("HealthTrack.view.login.RegistrationForm", {
 
     xtype: "registration",
 
-
+    requires: [
+        'HealthTrack.view.component.DateSelector',
+        'HealthTrack.view.login.RegistrationViewModel'
+    ],
     // title: "Registration",
     bodyPadding: 10,
     fieldDefaults: {

@@ -14,7 +14,7 @@ Ext.define("HealthTrack.view.login.LoginViewController", {
         //Ext.Msg.alert("Login", "Budu teprv zalogovavat");
         this.getView().destroy();
 
-        var view = Ext.create("Sandbox.view.main.Main");
+        var view = Ext.create("HealthTrack.view.main.Main");
         view.show();
     },
 
