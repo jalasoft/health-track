@@ -11,11 +11,18 @@ Ext.define("HealthTrack.view.login.LoginViewController", {
     },
 
     onLogin: function() {
-        //Ext.Msg.alert("Login", "Budu teprv zalogovavat");
-        this.getView().destroy();
+        var loginForm = this.getView().down("login");
+        var credentials = loginForm.getValues();
 
-        var view = Ext.create("HealthTrack.view.main.Main");
-        view.show();
+        var loginController = HealthTrack.getApplication().loginController();
+        var me = this;
+        loginController.login(credentials, function() {
+
+            me.getView().destroy();
+
+            var view = Ext.create("HealthTrack.view.main.Main");
+            view.show();
+        });
     },
 
     onGoToLogin: function() {

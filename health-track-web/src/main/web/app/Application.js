@@ -24,5 +24,9 @@ Ext.define('HealthTrack.Application', {
                 }
             }
         );
+    },
+
+    loginController: function() {
+        return this.getController("LoginController");
     }
 });

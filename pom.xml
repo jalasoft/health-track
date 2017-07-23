@@ -16,7 +16,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <spring.version>1.5.4.RELEASE</spring.version>
+        <spring.boot.version>1.5.4.RELEASE</spring.boot.version>
+        <spring.lib.version>4.3.9.RELEASE</spring.lib.version>
         <logback.version>1.2.3</logback.version>
     </properties>
 </project>

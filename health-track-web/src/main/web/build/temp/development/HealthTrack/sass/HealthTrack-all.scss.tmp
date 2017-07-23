@@ -916,6 +916,7 @@ $include-healthtrack-view-login-loginform: dynamic(true);;
 $include-healthtrack-view-login-loginview: dynamic(true);;
 $include-healthtrack-view-login-loginviewcontroller: dynamic(true);;
 $include-healthtrack-view-login-registrationform: dynamic(true);;
+$include-healthtrack-view-login-registrationviewmodel: dynamic(true);;
 $include-healthtrack-view-main-list: dynamic(true);;
 $include-healthtrack-view-main-main: dynamic(true);;
 $include-healthtrack-view-main-maincontroller: dynamic(true);;
